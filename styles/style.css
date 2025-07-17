@@ -1,4 +1,7 @@
 
+body{
+    background-color:#e5eaeb;
+}
 .header{
     background-image: url(../Assets/Hero-bg.png);
     height: 538px;
@@ -44,5 +47,114 @@
     margin-bottom: 28px ;
 
 }
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 124px;
+
+}
+.action-head{
+    font-size: 32px;
+    font-weight: bold;
+
+}
+.action-paragraph{
+    font-size: 20px;
+    font-weight: normal;
+    color: #252432;
+    opacity: 50%;
+
+}
+.action-img{
+    border-radius: 35px;
+    height:253px ;
+    width:310px ;
+
+}
+.productive{
+   background-color: #4E47FF10;
+   /* opacity: 30%; */
+   padding: 40px 110px;
+ border-radius: 18px ;
+ text-align: center;
+ margin: 0px auto;
+ width: 878px;
+}
+.productive h2{
+    font-size: 30px;
+    font-weight: bold;
+    color:#252432;
+}
+.elements{
+    display:flex ;
+    justify-content: space-around;
+}
+.user{
+    display: flex;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+   
+    flex-direction: column;
+}
+    
+    
+
+.user span{
+    font-size: 75px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.rating h2{
+    text-align: center;
+     margin-top:100px ;
+}
+.feedback{
+    background-color: #F2EDED;
+    border-radius:10px ;
+    width: 282px;
+    padding: 20px ;
+    
+}
+
+
+.feedback-text h3{
+    font-size:16px;
+    font-weight:bold;
+}
+.feedback-text p{
+    font-size: 11px;
+    font-weight: normal;
+}
+.reviewer{
+    display: flex;
+    
+    align-items: center;
+}
+.review-img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+ .review-info{
+    font-size: 11px;
+    font-weight: bold;
+    color: #757575;
+ }   
+ .review-info span{
+    color: #B3B3B3;
+ }
+ .users-feedback{
+    display: flex;
+    flex-direction: row;
+    width: 1140px;
+    margin: 0px auto;
+    justify-content: center;
+    gap: 40px;
+ }
+
 
 
